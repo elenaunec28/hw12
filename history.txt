@@ -1,0 +1,20 @@
+  150  git clone git@github.com:elenaunec28/hw12.git
+  151  ls -al
+  152  cd /hw12
+  153  cd /GIT/hw12
+  154  cd hw12
+  155  git checkout -b feature
+  156  nano README.md 
+  157  nano .gitignore
+  158  git add .
+  159  git commit -m "Update files README and gitignore"
+  160  git push origim feature 
+  161  git push origin feature 
+  162  git commit --amend -m "Update files README and gitignore amend"
+  163  git push --force origin feature 
+  164  git checkout main
+  165  git merge feature 
+  166  git push origin main
+  167  history > history.txt
+  168  cat history.txt 
+  169  history | tail -20 > history.txt
